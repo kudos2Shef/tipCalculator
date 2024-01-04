@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+#intro{
+  font-family: 'Pacifico', cursive;
+  font-size:5rem;
+  color:rgb(105, 26, 64);
+  text-align:center;
+}
+#container{
+  display:grid;
+  place-content:center;
+  gap:0.5rem;
+  font-size:1.5rem;
+}
+
+#billAmount,#tipPercent{
+  font-size:1.25rem;
+}
+
+.btn{
+  font-size:1rem;
+  margin:0.75rem 0;
+  background-color:rgb(109, 139, 116);
+  padding:0.5rem;
+  border:none;
+  color:rgb(244, 227, 183);
+
+}
+
+.btn:hover{
+  cursor:pointer;
+  background-color:rgba(246, 92, 120,0.7);
+  color:rgb(120, 28, 104);
+}
